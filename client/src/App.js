@@ -21,6 +21,12 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
+                <a
+                    href="https://cooldrawingidea.com/wp-content/uploads/2020/11/Drawing-of-goku.jpg"
+                    target="_blank"
+                >
+                    click me pls
+                </a>
                 <button onClick={() => getAllPosts(5)}>Get All Posts</button>
                 <br />
                 <input type="text" onChange={(ev) => setUserId(ev.target.value, userId)} />
